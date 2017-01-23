@@ -11,4 +11,5 @@ h1 {
   background-image: url(../image/whale.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
