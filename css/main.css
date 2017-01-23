@@ -1,7 +1,14 @@
-* {
-font-family: 'Georgia', 'Times', serif;
-}
 
 h1 {
-  color:FireBrick;
+  color: #DCDCDC;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.banner {
+  padding: 100px 0;
+  background-image: url(../image/whale.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
