@@ -39,8 +39,17 @@ body.home {
   font-size: 400%;
 }
 
-
 .title a {
     text-decoration: none;
     color: inherit;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+  position: absolute;;
+  left: 85%;
+  top: 10%;
+  vertical-align: middle;
+  opacity: 0.9;
 }
