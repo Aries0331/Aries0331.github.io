@@ -4,7 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="IE=edge,chrome"
-    <title>My homepage</title>
+    <title class="MyTitle">My homepage</title>
+    <!-- Hide the title, reference from: -->
+    <style>
+    title {visibility: hidden;}
+    </style>
     <!-- link html to css -->
     <link href="css/main.css" type="text/css" rel="stylesheet">
   </head>
@@ -21,8 +25,12 @@
         <ul>
           <li>^_^</li>
           <li>Project</li>
-          <li>LinkedIn</li>
-          <li>Github</li>
+          <li>
+            <a class="linkedin" href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button">LinkedIn</a>
+          </li>
+          <li>
+            <a class="github" href="https://github.com/Aries0331">Github</a>
+          </li>
           <li>More</li>
         </ul>
       </nav>
