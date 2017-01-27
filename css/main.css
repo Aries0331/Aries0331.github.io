@@ -5,8 +5,6 @@ html, body { height: 100%; }
 body {
   text-align: center;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #fafcff;
-  color: #666;
 }
 
 body.home {
