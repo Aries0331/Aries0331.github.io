@@ -51,3 +51,8 @@ img {
   vertical-align: middle;
   opacity: 0.9;
 }
+
+.last > p {
+  text-align: left
+  bottom: 0;
+}
