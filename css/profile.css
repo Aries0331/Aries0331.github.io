@@ -22,6 +22,7 @@ a.top {
   font-size: 15px;
   color: #00FFFF;
   text-align: right;
+  visibility: hidden;
 }
 
 h1.aboutme {
@@ -30,6 +31,13 @@ h1.aboutme {
 
 .text {
   text-align: center;
+  line-height: 250%;
+}
+
+i.material-icons {
+  display: block;
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 .content {
@@ -39,5 +47,15 @@ h1.aboutme {
   height: 100%;
   border-style: solid;
   border-width: thin;
+}
 
+.list > li {
+  display: block;
+  text-align: left;
+  padding-left: 35%;
+}
+
+a.ua {
+  text-decoration: none;
+  color: 	#ADFF2F;
 }
