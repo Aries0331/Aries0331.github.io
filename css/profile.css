@@ -1,5 +1,12 @@
 html, body { height: 100%; }
 
+body.profile {
+  background: url(../image/beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 255, 255, 0.2);
+}
+
 .nav {
   text-align: left;
 }
@@ -8,6 +15,13 @@ a.back {
   font-family: 'Aldrich';
   font-size: 15px;
   color: red;
+}
+
+a.top {
+  font-family: 'Aldrich';
+  font-size: 15px;
+  color: #00FFFF;
+  text-align: right;
 }
 
 h1.aboutme {
