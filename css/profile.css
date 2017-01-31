@@ -1,0 +1,29 @@
+html, body { height: 100%; }
+
+.nav {
+  text-align: left;
+}
+
+a.back {
+  font-family: 'Aldrich';
+  font-size: 15px;
+  color: red;
+}
+
+h1.aboutme {
+  padding-left: 5cm;
+}
+
+.text {
+  text-align: center;
+}
+
+.content {
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 100%;
+  border-style: solid;
+  border-width: thin;
+
+}
