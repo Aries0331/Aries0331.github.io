@@ -70,3 +70,21 @@ img {
 	color: #696969;
 	font-size: 12px;
 }
+
+@media screen and (max-width:400px) {
+
+	.contents .row .pad {
+		text-align: center;
+	}
+
+	.top .title img{
+		height: 50px;
+		width: 50px;
+		margin: 5px;
+	}
+
+	.top .title h3 {
+		color: #757575;
+	}
+
+}
