@@ -59,3 +59,21 @@ a.ua {
   text-decoration: none;
   color: 	#ADFF2F;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-content{
+	position: relative;
+	margin-top: 20px;
+  text-align: left;
+  bottom: 0;
+}
+
+.footer-content p{
+	color: #6495ED;
+	font-size: 12px;
+}
