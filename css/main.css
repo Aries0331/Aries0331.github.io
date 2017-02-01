@@ -43,11 +43,11 @@ body.home {
 }
 
 img {
-  height: 250px;
-  width: 200px;
+  height: 200px;
+  width: 150px;
   position: absolute;;
-  left: 85%;
-  top: 10%;
+  left: 88%;
+  top: 3%;
   vertical-align: middle;
   opacity: 0.9;
 }
