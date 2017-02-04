@@ -12,9 +12,14 @@ body.home {
   background-size: cover;
 }
 
+nav {
+  text-align: center;
+}
+
 .guide > * > li {
   display: inline-block;
   margin-left: 0.6em;
+  text-align: center;
 }
 
 .intro {
@@ -46,8 +51,8 @@ body.home {
 img {
   height: 200px;
   width: 150px;
-  position: absolute;;
-  left: 88%;
+  position: absolute;
+  right: 0;
   top: 3%;
   vertical-align: middle;
   opacity: 0.9;
