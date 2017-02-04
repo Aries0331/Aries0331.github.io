@@ -1,14 +1,12 @@
-html, body { height: 100%; }
-
-.container .inner-container .text {
-  border-style: dashed;
+html, body {
+  height: 100%;
+  font-weight: bolder;
 }
 
 body.profile {
-  background: url(../image/beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 255, 255, 0.2);
+  background-color: rgba(225, 225, 0, 0.2);
 }
 
 .nav {
@@ -57,13 +55,12 @@ i.material-icons {
 .list > li {
   position: relative;
   display: block;
-  text-align: left;
-  padding-left: 35%;
 }
 
 a.ua {
-  text-decoration: underline;;
-  color: 	#ADFF2F;
+  text-decoration: underline;
+  font-family: 'Annie Use Your Telescope';font-size: 16px;
+  color: 	#6495ED;
 }
 
 .footer {
