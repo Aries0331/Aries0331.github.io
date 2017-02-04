@@ -3,6 +3,23 @@ html, body {
   font-weight: bolder;
 }
 
+.text {
+  border-style: double;
+}
+/*
+.selfie {
+  position: relative;
+  text-align: right;
+  border-style: dotted;
+  padding-top: 10pt;
+}
+*/
+img {
+  height: 50pt;
+  width: 40pt;
+  border-radius: 50%;
+}
+
 body.profile {
   background-repeat: no-repeat;
   background-size: cover;
