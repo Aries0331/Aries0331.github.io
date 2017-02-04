@@ -1,6 +1,6 @@
 html, body { height: 100%; }
 
-.container {
+.container .inner-container .text {
   border-style: dashed;
 }
 
@@ -19,6 +19,7 @@ a.back {
   font-family: 'Aldrich';
   font-size: 15px;
   color: red;
+  text-decoration: underline;
 }
 
 a.top {
@@ -29,8 +30,8 @@ a.top {
   visibility: hidden;
 }
 
-h1.aboutme {
-  padding-left: 5cm;
+.innner-content > h1 {
+  font-family: 'Allura';font-size: 22px;
 }
 
 .text {
@@ -45,15 +46,16 @@ i.material-icons {
 }
 
 .content {
+  position: relative;
   margin-top: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
-  height: 100%;
+  left: 0;
+  right: 0;
   border-style: solid;
   border-width: thin;
 }
 
 .list > li {
+  position: relative;
   display: block;
   text-align: left;
   padding-left: 35%;
