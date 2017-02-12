@@ -14,12 +14,13 @@ body.home {
 
 nav {
   text-align: center;
+  margin-right: 3em;
 }
 
 .guide > * > li {
   display: inline-block;
   margin-left: 0.6em;
-  text-align: center;
+  text-align: justify;;
 }
 
 .intro {
