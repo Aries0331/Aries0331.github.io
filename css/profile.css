@@ -1,47 +1,21 @@
 html, body {
+  background-color: rgba(240,255,240,0.4);
   height: 100%;
 }
 
-.text {
-  border-style: double;
+h2 {
+  font-size: 200%;
 }
 
-/*
-#Me {
-  animation: spin 5s linear infinite;
+hr {
+  margin-top: 3em;
 }
 
-@keyframes spin {
-	0% {
-		transform:rotate(0deg);
-		}
-	100% {
-		transform:rotate(360deg);
-		}
+a {
+  color: #000000;
 }
 
-
-.selfie {
-  position: relative;
-  text-align: right;
-  border-style: dotted;
-  padding-top: 10pt;
-}
-*/
-img {
-  height: 50pt;
-  width: 40pt;
-  border-radius: 50%;
-  /*animation: spin 5s linear infinite;*/
-}
-
-body.profile {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(225, 225, 0, 0.2);
-}
-
-.nav {
+.goback {
   text-align: left;
 }
 
@@ -52,21 +26,11 @@ a.back {
   text-decoration: underline;
 }
 
-a.top {
-  font-family: 'Aldrich';
+a.bottom {
   font-size: 15px;
   color: #00FFFF;
   text-align: right;
   visibility: hidden;
-}
-
-.innner-content > h1 {
-  font-family: 'Allura';font-size: 22px;
-}
-
-.text {
-  text-align: center;
-  line-height: 250%;
 }
 
 i.material-icons {
@@ -75,35 +39,146 @@ i.material-icons {
   padding: 0;
 }
 
-.content {
-  position: relative;
-  margin-top: 10px;
+.blender {
+  position: absolute;
+  width: 100%;
+  height: 2.5em;
+
+  top: 0;
   left: 0;
   right: 0;
-  border-style: solid;
-  border-width: thin;
+
+  background-color: rgba(240,230,140, 0.1);
 }
 
-.list > li {
+.navi {
+  position: relative;;
+  width: 100%;
+
+  left: 0;
+  right: 0;
+
+  margin-top: 0em;;
+
+  background-color: white;
+  background-color: rgba(240, 255, 255, 0.8);
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 400%;
+  font-family: 'Almendra';
+}
+
+h3 {
+  font-family: 'Allura';
+}
+
+.list {
+  text-align: center;
+  margin-right: 4em;
+  /*background-color: rgba(173, 216, 230,0.5);*/
+}
+
+.guide {
+  padding-top: 4em;
+}
+
+.guide > * > li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+nav a:hover {
+  background-color: GreenYellow;
+}
+
+img {
+  width: 150px;
+  height: 200px;
   position: relative;
-  display: block;
+  
+  /*visibility: hidden; */
 }
 
-a.ua {
-  text-decoration: underline;
-  font-family: 'Annie Use Your Telescope';font-size: 16px;
-  color: 	#6495ED;
+.sidebar {
+  float: left;
+  position: relative;
+  background-color: rgba(211, 211, 211, 0.2);
+  width: 20%;
+  height: 80em;
+  margin-top: 0em;
+}
+
+.sidebar > * > li {
+  margin-bottom: 1em;
+}
+
+.sidebar a:hover {
+  background-color: yellow;
+}
+
+ul.left {
+  margin-top: 2em;
+}
+
+#introduction {
+  position: relative;
+  float: left;
+  margin-left: 5em;
+  width: 60%;
+  line-height: 200%;
+  font-size: 110%;
+}
+
+span {
+  font-size: 70%;
+}
+
+#professional {
+  position: relative;
+  float: left;
+  margin-top: 2em;
+  margin-left: 5em;
+  width: 60%;
+  text-align: left;
+  font-size: 110%;
+}
+
+#skills {
+  position: relative;
+  float: left;
+  margin-top: 2em;
+  margin-left: 5em;
+  width: 60%;
+  font-size: 110%;
+}
+
+#contact {
+  position: relative;
+  float: left;
+  margin-top: 2em;
+  margin-left: 5em;
+  width: 60%;
+  font-size: 110%;
+}
+
+ul.contactInfo > * > li {
+  font-size: 110%;
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
+  right: 0px;
   bottom: 0px;
   width: 100%;
 }
 
 .footer-content{
 	position: relative;
-	margin-top: 20px;
   text-align: left;
   bottom: 0;
 }
