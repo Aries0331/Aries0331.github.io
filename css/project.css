@@ -1,0 +1,12 @@
+.goback {
+  text-align: left;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+a.back {
+  font-family: 'Aldrich';
+  font-size: 15px;
+  color: red;
+  text-decoration: underline;
+}
