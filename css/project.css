@@ -5,11 +5,13 @@ html, body {
 
 h1 {
   text-align: center;
-}
-
-h1 {
   font-size: 400%;
   font-family: 'Acme', sans-serif;
+}
+
+h3 {
+  font-size: 200%;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .goback {
@@ -51,12 +53,23 @@ a.back {
 }
 
 .p1 {
-  border-style: solid;
+  /*border-style: solid;*/
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 img#p1 {
-  position: relative;
+  position: absolute;
+  z-index: 1;
   width: 200px;
   height: auto;
-  right: 0;
+  top: 13em;
+  left: 70%;
+}
+
+.p2 {
+  /*border-style: solid;*/
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em;
 }
