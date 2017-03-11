@@ -138,7 +138,7 @@ ul.left {
 
 #introduction {
   position: relative;
-  margin-left: 20em;
+  margin-left: 25%;;
   width: 60%;
   height: auto;
   line-height: 200%;
@@ -152,7 +152,7 @@ span {
 #professional {
   position: relative;
   margin-top: 2em;
-  margin-left: 20em;
+  margin-left: 25%;
   width: 60%;
   text-align: left;
   font-size: 110%;
@@ -161,7 +161,7 @@ span {
 #skills {
   position: relative;
   margin-top: 2em;
-  margin-left: 20em;
+  margin-left: 25%;
   width: 60%;
   font-size: 110%;
 }
@@ -169,7 +169,7 @@ span {
 #contact {
   position: relative;
   margin-top: 2em;
-  margin-left: 22em;
+  margin-left: 25%;
   width: 60%;
 }
 
@@ -188,4 +188,16 @@ span {
 .footer-content p{
 	color: #6495ED;
 	font-size: 12px;
+}
+
+@media(max-width:550px) {
+  .detail {
+    font-size: 0.5em;
+  }
+  .sidebar {
+    font-size: 0.5em;
+  }
+  .left {
+    margin-left: -3em;
+  }
 }

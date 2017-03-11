@@ -115,3 +115,17 @@ img#p3 {
   font-family: "Times New Roman", Times, serif;
   color: grey;
 }
+
+@media(max-width:750px) {
+  .container {
+    font-size: 0.5em;
+  }
+  img#p1 {
+    width: 20%;
+    height: auto;
+    top: 25%;
+  }
+  img#p3 {
+    visibility: hidden;
+  }
+}
