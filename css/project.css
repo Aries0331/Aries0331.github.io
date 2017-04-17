@@ -83,6 +83,15 @@ img#p1 {
   margin-top: 3em;
 }
 
+img#p2 {
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  height: auto;
+  margin-top: -15em;
+  left: 75%;
+}
+
 .p3 {
   margin-left: 15em;
   margin-right: 15em;
@@ -124,6 +133,11 @@ img#p3 {
     width: 20%;
     height: auto;
     top: 25%;
+  }
+  img#p2 {
+    width: 15%;
+    height: auto;
+    top: 90%;
   }
   img#p3 {
     visibility: hidden;
