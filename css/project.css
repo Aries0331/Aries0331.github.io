@@ -73,7 +73,7 @@ img#p1 {
   z-index: 1;
   width: 200px;
   height: auto;
-  top: 15em;
+  top: 40em;
   left: 70%;
 }
 
@@ -114,6 +114,16 @@ img#p3 {
   margin-top: 3em;
 }
 
+img#p4 {
+  position: absolute;
+  z-index: -1;
+  width: 250px;
+  height: auto;
+  top: 15em;
+  left: 70%;
+  background-color: rgba(240,255,240,0);
+}
+
 .more {
   margin-left: 15em;
   margin-right: 15em;
@@ -136,16 +146,15 @@ img#p3 {
     font-size: 0.5em;
   }
   img#p1 {
-    width: 20%;
-    height: auto;
-    top: 25%;
+    visibility: hidden;
   }
   img#p2 {
-    width: 15%;
-    height: auto;
-    top: 90%;
+    visibility: hidden;
   }
   img#p3 {
+    visibility: hidden;
+  }
+  img#p4 {
     visibility: hidden;
   }
 }
