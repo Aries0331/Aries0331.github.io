@@ -103,7 +103,7 @@ img#p3 {
   z-index: -1;
   width: 250px;
   height: auto;
-  top: 65em;
+  top: 90em;
   left: 70%;
   background-color: rgba(240,255,240,0);
 }
@@ -120,6 +120,22 @@ img#p4 {
   width: 250px;
   height: auto;
   top: 15em;
+  left: 70%;
+  background-color: rgba(240,255,240,0);
+}
+
+.p5 {
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-top: 3em;
+}
+
+img#p5 {
+  position: absolute;
+  z-index: -1;
+  width: 250px;
+  height: auto;
+  top: 65em;
   left: 70%;
   background-color: rgba(240,255,240,0);
 }
@@ -155,6 +171,9 @@ img#p4 {
     visibility: hidden;
   }
   img#p4 {
+    visibility: hidden;
+  }
+  img#p5 {
     visibility: hidden;
   }
 }
