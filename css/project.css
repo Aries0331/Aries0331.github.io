@@ -157,7 +157,7 @@ img#p5 {
   color: grey;
 }
 
-@media(max-width:750px) {
+@media(max-width:1150px) {
   .container {
     font-size: 0.5em;
   }
