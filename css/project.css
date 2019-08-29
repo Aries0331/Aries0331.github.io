@@ -11,13 +11,13 @@ h1 {
 }
 
 h3 {
-  font-size: 250%;
-  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
   font-family: 'Rubik', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 hr {
@@ -65,13 +65,13 @@ a.back {
 .p1 {
   /*border-style: solid;*/
   margin-left: 15em;
-  margin-right: 15em;
+  margin-right: 20em;
 }
 
 img#p1 {
   /*position: absolute;*/
   /*z-index: 1;*/
-  width: 350px;
+  width: 220px;
   height: auto;
   /*top: 40em;*/
   /*left: 70%;*/
@@ -86,22 +86,22 @@ img#p1 {
 img#p2 {
 /*  position: absolute;
   z-index: 1;*/
-  width: 150px;
+  width: 300px;
   height: auto;
-  margin-top: -15em;
+  /*margin-top: 3em;*/
   /*left: 75%;*/
 }
 
 .p3 {
   margin-left: 15em;
-  margin-right: 15em;
+  margin-right: 18em;
   margin-top: 3em;
 }
 
 img#p3 {
   /*position: absolute;*/
   /*z-index: -1;*/
-  width: 350px;
+  width: 250px;
   height: auto;
   /*top: 90em;*/
   /*left: 70%;*/
@@ -117,7 +117,7 @@ img#p3 {
 img#p4 {
   /*position: absolute;*/
   /*z-index: -1;*/
-  width: 350px;
+  width: 300px;
   height: auto;
   top: 15em;
   /*left: 70%;*/
@@ -126,14 +126,62 @@ img#p4 {
 
 .p5 {
   margin-left: 15em;
-  margin-right: 15em;
+  margin-right: 20em;
   margin-top: 3em;
 }
 
 img#p5 {
   /*position: absolute;*/
   /*z-index: -1;*/
-  width: 350px;
+  width: 220px;
+  height: auto;
+  /*top: 65em;*/
+  /*left: 70%;*/
+  background-color: rgba(240,255,240,0);
+}
+
+.p6 {
+  margin-left: 15em;
+  margin-right: 20em;
+  margin-top: 3em;
+}
+
+img#p6 {
+  /*position: absolute;*/
+  /*z-index: -1;*/
+  width: 220px;
+  height: auto;
+  /*top: 65em;*/
+  /*left: 70%;*/
+  background-color: rgba(240,255,240,0);
+}
+
+.p7 {
+  margin-left: 15em;
+  margin-right: 18em;
+  margin-top: 3em;
+}
+
+img#p7 {
+  /*position: absolute;*/
+  /*z-index: -1;*/
+  width: 250px;
+  height: auto;
+  /*top: 65em;*/
+  /*left: 70%;*/
+  background-color: rgba(240,255,240,0);
+}
+
+.p8 {
+  margin-left: 15em;
+  margin-right: 18em;
+  margin-top: 3em;
+}
+
+img#p8 {
+  /*position: absolute;*/
+  /*z-index: -1;*/
+  width: 250px;
   height: auto;
   /*top: 65em;*/
   /*left: 70%;*/
