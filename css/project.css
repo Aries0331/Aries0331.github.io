@@ -188,6 +188,22 @@ img#p8 {
   background-color: rgba(240,255,240,0);
 }
 
+.p9 {
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-top: 3em;
+}
+
+img#p9 {
+  /*position: absolute;*/
+  /*z-index: -1;*/
+  width: 300px;
+  height: auto;
+  /*top: 65em;*/
+  /*left: 70%;*/
+  background-color: rgba(240,255,240,0);
+}
+
 .more {
   margin-left: 15em;
   margin-right: 15em;
